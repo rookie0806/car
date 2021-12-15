@@ -1,0 +1,18 @@
+.summoner {
+    width: 100%;
+    background-color: #FAFAFA;
+    padding-top:50px;
+    padding-bottom : 50px;
+    min-height: 900px;
+   .box{
+    min-height: 700px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 25%;
+    display:block;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    background-color:white;
+    align-items: center;
+    justify-content: center;
+   }
+}

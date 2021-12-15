@@ -1,0 +1,169 @@
+.summoner {
+    width: 100%;
+    background-color: #071B2C;
+    padding-top:30px;
+    padding-bottom : 30px;
+    min-height: 650px;
+   .box{
+    min-height: 500px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 80%;
+    display: block;
+    background-color:#111111;
+    align-items: center;
+    justify-content: center;
+    .top{
+      width: 90%;
+      display: flex;
+      margin-left:auto;
+      margin-right:auto;
+      padding-top:30px;
+      padding-bottom:30px;
+      .showmmr{
+        width:100%;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+        .loading{
+          margin-top : 30px;
+          margin-left:auto;
+          margin-right:auto;
+          width:30px;
+        }
+        .infobox{
+          margin-top: 180px;
+        }
+        .name2{
+          font-family: 'NEXONBO';
+          color: #e9e9e9;
+          font-size:  1.3rem;
+          font-weight: bold;
+          padding-bottom: 10px;
+        }
+        .name{
+          font-family: 'NEXONBO';
+          color: #e9e9e9;
+          font-size:  1.2rem;
+          word-break: keep-all;
+          font-weight: bold;
+          padding-bottom: 20px;
+        }
+        .warning{
+          font-family: 'NEXON';
+          color: #c4302b;
+          font-size: 0.8em;
+          font-weight: bold;
+          padding-bottom: 5px;
+        }
+        .tier{
+          display: inline-flex;
+          width:100%;
+          .right{
+            width:100%;
+          }
+          .logo{
+            width:70%;
+          }
+          .mmr{
+            font-family: 'NEXONRE';
+            color:#e9e9e9;
+            font-size: 1.8em;
+            font-weight: bold;
+            padding-bottom: 15px;
+          }
+          .mmrtotier{
+            font-family: 'NEXONRE';
+            color: #bababa;
+            font-size: 0.9em;
+            font-weight: bold;
+            padding-bottom: 15px;
+          }
+        }
+        
+        .explain{
+          font-family: 'NEXONRE';
+          color: #1a7D32;  
+          font-size: 0.9em;
+          font-weight: bold;
+          padding-bottom: 15px;
+        }
+        .explain2{
+          font-family: 'NEXONRE';
+          color: #c4302b;
+          font-size: 0.9em;
+          font-weight: bold;
+          padding-bottom: 15px;
+        }
+        .chartdiv{
+          margin-top:10px;
+          .title{
+            font-family: 'NEXONRE';
+            color: #e9e9e9;
+            font-size: 0.9em;
+            font-weight: bold;
+            padding-bottom: 40px;
+          }
+          .chart{
+            max-width:100%;
+            margin-left:auto;
+            margin-right:auto;
+          }
+        }
+        .buttons{
+          display: inline-flex;
+          padding-top: 15px;
+          .mmr{
+            min-width: 100px;
+            height: 40px;
+            padding: 8px 24px;
+            border-radius: 15px;
+            white-space: nowrap;
+            border: 0.3px solid #031020;
+            color: rgb(255, 255, 255);
+            background: #031020;
+            cursor: pointer;
+            font-family: 'NEXONRE';
+            font-size: 25px;
+            margin-right:20px;
+          }
+        }
+      }
+    }
+    .bottom{
+      width:80%;
+      margin-left:auto;
+      margin-right:auto;
+      font-family: 'NEXONRE';
+      color: white;  
+      
+      font-weight: bold;
+      padding-bottom: 15px;
+      .toptext{
+        font-size: 25px;
+        text-align: center;
+        padding-bottom: 15px;
+      }
+      .bottomtext{
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 15px;
+      }
+    }
+   }
+}
+.react-rotating-text-cursor {
+  animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+}
+
+@keyframes blinking-cursor {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

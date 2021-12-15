@@ -1,0 +1,115 @@
+.middleback{
+    margin-top: 40px;
+    background-color:rgb(13, 27, 37);
+    padding-bottom: 50px;
+    .wrapper{
+        max-width: 927px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 24px;
+        position: relative;
+        box-sizing: border-box;
+        display: flex;
+        .right{
+            width:30%;
+            padding-top: 40px;
+            
+            svg{
+                margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+            }
+            .big{
+                text-align: center;
+                font-family: 'GONGRE';
+                color: white;
+                font-size: 17px;
+                padding-top: 10px;
+            }
+        }
+        .bottomcontent{
+            font-family: 'GONGRE';
+            padding-top: 40px;
+            width:70%;
+            .big{
+
+                color: white;
+                font-size: 20px;
+                padding-bottom: 10px;
+            }
+            .middle{
+
+                color: white;
+                font-size: 17px;
+                padding-bottom: 15px;
+                margin-right:10px;
+            }
+            .small{
+                padding-top: 30px;
+                font-weight: 600;
+                color: white;
+                font-size: 16px;
+                display: inline-flex;
+                
+                
+            }
+        }
+    }
+}
+a{
+   
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    text-decoration-skip: objects;
+    text-decoration: none;
+    color: inherit;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+@keyframes boxup {
+	0%{
+        box-shadow: 10px 10px 3px rgba(0, 0, 33, 0.1);
+    }
+	100% {
+		box-shadow: 30px 30px 6px rgba(0, 0, 33, 0.04);
+	}
+	
+}
+@keyframes up {
+	0%{
+        transform: translateY(0);
+    }
+	100% {
+		transform: translateY(-3rem);
+	}
+	
+}
+@keyframes changecolor {
+	0%{
+        fill: red;
+        transform : rotate(190deg) 
+    }
+	100% {
+        fill: #399454;
+        transform : rotate(360deg);
+	}
+	
+}
+@keyframes changecolor2 {
+	0%{
+        color: red;
+    }
+	100% {
+        color: #399454;
+	}
+}
+@keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}

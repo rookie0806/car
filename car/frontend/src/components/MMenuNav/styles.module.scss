@@ -1,0 +1,38 @@
+.nav{
+
+    line-height: 50px;
+    background: #111111;
+    box-sizing: border-box;
+    display: block;
+    .menuBox{
+      margin-left: auto;
+      margin-right:auto;
+      width:85%;
+    }
+    ul{
+      
+      display: flex;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      width: 50%;
+      box-sizing: border-box;
+
+      li{
+
+        
+        list-style: none;
+
+        a{
+          font-family: 'NEXONBO';
+          font-weight: bold;
+          width: auto;
+          color: #fff;
+          
+          font-size: 0.7rem;
+          font-weight: bold;
+
+          text-decoration: none;
+        }
+      }
+    }
+}
